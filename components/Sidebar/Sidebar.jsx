@@ -74,7 +74,7 @@ const Sidebar = () => {
       <div>
         {/* Logo */}
         <Link
-          href="#"
+          href="/"
           className="bg-slate-900 border-b h-[6.6vh] border-slate-900 shadow-slate-400 flex space-x-2 items-center justify-center pt-3 pb-3 px-2"
         >
           <ShoppingCart />
