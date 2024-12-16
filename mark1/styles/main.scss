@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header-bg{
+    background-image: url('../public/homeNavHeader.svg');
+    background-size: contain;
+}
+
+.dashboard-banner {
+    background-image: url('../public/ShoppingCart.png');
+    background-size: contain;
+}
