@@ -1,8 +1,8 @@
 .input {
-    transition: width 0.3s ease;
-    width: 200px; /* Default width */
-  }
-  
+  transition: width 0.3s ease;
+  width: 200px; /* Default width */
+}
+
 .input:hover {
-    width: 300px; /* Expanded width on hover/focus */
-  }
+  width: 300px; /* Expanded width on hover/focus */
+}

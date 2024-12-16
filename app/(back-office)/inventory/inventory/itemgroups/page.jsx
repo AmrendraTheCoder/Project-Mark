@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 function ItemsGroups() {
   return (
     <div>
-        <h2>ItemsGroups</h2>
+      <h2>ItemsGroups</h2>
     </div>
-  )
+  );
 }
 
-export default ItemsGroups
+export default ItemsGroups;

@@ -1,5 +1,7 @@
 {
   "/page": "app/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/(back-office)/inventory/home/overview/page": "app/(back-office)/inventory/home/overview/page.js"
+  "/(back-office)/inventory/home/overview/page": "app/(back-office)/inventory/home/overview/page.js",
+  "/(back-office)/inventory/home/updates/page": "app/(back-office)/inventory/home/updates/page.js",
+  "/(back-office)/inventory/home/getting-started/page": "app/(back-office)/inventory/home/getting-started/page.js"
 }

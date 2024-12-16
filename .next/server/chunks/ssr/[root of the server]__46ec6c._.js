@@ -33,20 +33,21 @@ function Subscription() {
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "text-sm border-l-2 border-orange-300 pl-2",
                         children: [
-                            "Your Premium plan's trial expires in  ",
+                            "Your Premium plan's trial expires in",
+                            " ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "text-orange-300",
                                 children: " 13 days "
                             }, void 0, false, {
                                 fileName: "[project]/components/dashboard/Subscription.jsx",
-                                lineNumber: 10,
-                                columnNumber: 55
+                                lineNumber: 11,
+                                columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/dashboard/Subscription.jsx",
                         lineNumber: 9,
-                        columnNumber: 13
+                        columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/dashboard/Subscription.jsx",
@@ -61,8 +62,8 @@ function Subscription() {
                             children: "Change Plan"
                         }, void 0, false, {
                             fileName: "[project]/components/dashboard/Subscription.jsx",
-                            lineNumber: 14,
-                            columnNumber: 17
+                            lineNumber: 15,
+                            columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                             href: "#",
@@ -70,20 +71,20 @@ function Subscription() {
                             children: "Update"
                         }, void 0, false, {
                             fileName: "[project]/components/dashboard/Subscription.jsx",
-                            lineNumber: 17,
-                            columnNumber: 17
+                            lineNumber: 18,
+                            columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/dashboard/Subscription.jsx",
-                    lineNumber: 13,
+                    lineNumber: 14,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/dashboard/Subscription.jsx",
             lineNumber: 7,
-            columnNumber: 9
+            columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/dashboard/Subscription.jsx",
@@ -145,16 +146,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 function Sidebar() {
     const inventoryLinks = [
         {
-            title: 'Items',
-            href: '#'
+            title: "Items",
+            href: "#"
         },
         {
-            title: 'Items Group',
-            href: '#'
+            title: "Items Group",
+            href: "#"
         },
         {
-            title: 'Inventory Adjustments',
-            href: '#'
+            title: "Inventory Adjustments",
+            href: "#"
         }
     ];
     const [active, setActive] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])({
@@ -195,22 +196,22 @@ function Sidebar() {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shopping$2d$cart$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ShoppingCart$3e$__["ShoppingCart"], {}, void 0, false, {
                                     fileName: "[project]/components/dashboard/Sidebar.jsx",
-                                    lineNumber: 68,
-                                    columnNumber: 9
+                                    lineNumber: 81,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-xl font-semibold",
                                     children: "Inventory"
                                 }, void 0, false, {
                                     fileName: "[project]/components/dashboard/Sidebar.jsx",
-                                    lineNumber: 69,
-                                    columnNumber: 9
+                                    lineNumber: 82,
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/dashboard/Sidebar.jsx",
-                            lineNumber: 67,
-                            columnNumber: 7
+                            lineNumber: 77,
+                            columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
                             className: "flex flex-col gap-3 px-3 py-6",
@@ -223,27 +224,27 @@ function Sidebar() {
                                             className: "w-4 h-4"
                                         }, void 0, false, {
                                             fileName: "[project]/components/dashboard/Sidebar.jsx",
-                                            lineNumber: 74,
-                                            columnNumber: 11
+                                            lineNumber: 90,
+                                            columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             children: "Home"
                                         }, void 0, false, {
                                             fileName: "[project]/components/dashboard/Sidebar.jsx",
-                                            lineNumber: 75,
-                                            columnNumber: 11
+                                            lineNumber: 91,
+                                            columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/dashboard/Sidebar.jsx",
-                                    lineNumber: 73,
-                                    columnNumber: 9
+                                    lineNumber: 86,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$collapsible$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Collapsible"], {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$collapsible$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CollapsibleTrigger"], {
                                             onClick: handleInventoryClick,
-                                            className: `flex items-center w-full mb-2 p-3 space-x-2 rounded-md hover:bg-blue-600 ${active.inventory ? 'bg-blue-800' : 'bg-slate-800'} text-slate-50 justify-between`,
+                                            className: `flex items-center w-full mb-2 p-3 space-x-2 rounded-md hover:bg-blue-600 ${active.inventory ? "bg-blue-800" : "bg-slate-800"} text-slate-50 justify-between`,
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "flex items-center space-x-2",
@@ -252,80 +253,80 @@ function Sidebar() {
                                                             className: "w-4 h-4"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/dashboard/Sidebar.jsx",
-                                                            lineNumber: 81,
-                                                            columnNumber: 17
+                                                            lineNumber: 102,
+                                                            columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             children: "Inventory"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/dashboard/Sidebar.jsx",
-                                                            lineNumber: 82,
-                                                            columnNumber: 17
+                                                            lineNumber: 103,
+                                                            columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/dashboard/Sidebar.jsx",
-                                                    lineNumber: 80,
-                                                    columnNumber: 15
+                                                    lineNumber: 101,
+                                                    columnNumber: 17
                                                 }, this),
                                                 active.inventory ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$down$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronDown$3e$__["ChevronDown"], {
                                                     className: "ml-auto"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/dashboard/Sidebar.jsx",
-                                                    lineNumber: 85,
-                                                    columnNumber: 35
+                                                    lineNumber: 106,
+                                                    columnNumber: 19
                                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
                                                     className: "ml-auto"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/dashboard/Sidebar.jsx",
-                                                    lineNumber: 85,
-                                                    columnNumber: 71
+                                                    lineNumber: 108,
+                                                    columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/dashboard/Sidebar.jsx",
-                                            lineNumber: 79,
-                                            columnNumber: 11
+                                            lineNumber: 95,
+                                            columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$collapsible$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CollapsibleContent"], {
                                             children: inventoryLinks.map((item, i)=>{
                                                 return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                     href: item.href,
-                                                    className: `flex items-center justify-between p-2.5 pr-6 mb-2 rounded-lg hover:bg-blue-500 transition-all duration-300 ${active[item.title.replace(' ', '')] ? 'bg-blue-600' : ''}`,
-                                                    onClick: ()=>handleItemClick(item.title.replace(' ', '')),
+                                                    className: `flex items-center justify-between p-2.5 pr-6 mb-2 rounded-lg hover:bg-blue-500 transition-all duration-300 ${active[item.title.replace(" ", "")] ? "bg-blue-600" : ""}`,
+                                                    onClick: ()=>handleItemClick(item.title.replace(" ", "")),
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             className: "pl-8 font-medium text-sm",
                                                             children: item.title
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/dashboard/Sidebar.jsx",
-                                                            lineNumber: 100,
-                                                            columnNumber: 21
+                                                            lineNumber: 124,
+                                                            columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$plus$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__PlusCircle$3e$__["PlusCircle"], {
                                                             className: "w-4 h-4"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/dashboard/Sidebar.jsx",
-                                                            lineNumber: 101,
-                                                            columnNumber: 21
+                                                            lineNumber: 127,
+                                                            columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, i, true, {
                                                     fileName: "[project]/components/dashboard/Sidebar.jsx",
-                                                    lineNumber: 94,
-                                                    columnNumber: 19
+                                                    lineNumber: 114,
+                                                    columnNumber: 21
                                                 }, this);
                                             })
                                         }, void 0, false, {
                                             fileName: "[project]/components/dashboard/Sidebar.jsx",
-                                            lineNumber: 89,
-                                            columnNumber: 11
+                                            lineNumber: 111,
+                                            columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/dashboard/Sidebar.jsx",
-                                    lineNumber: 78,
-                                    columnNumber: 9
+                                    lineNumber: 94,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                     className: "flex items-center p-3 space-x-2",
@@ -334,21 +335,21 @@ function Sidebar() {
                                             className: "w-4 h-4"
                                         }, void 0, false, {
                                             fileName: "[project]/components/dashboard/Sidebar.jsx",
-                                            lineNumber: 111,
-                                            columnNumber: 11
+                                            lineNumber: 135,
+                                            columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             children: "Sales"
                                         }, void 0, false, {
                                             fileName: "[project]/components/dashboard/Sidebar.jsx",
-                                            lineNumber: 112,
-                                            columnNumber: 11
+                                            lineNumber: 136,
+                                            columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/dashboard/Sidebar.jsx",
-                                    lineNumber: 110,
-                                    columnNumber: 9
+                                    lineNumber: 134,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                     className: "flex items-center p-3 space-x-2",
@@ -357,21 +358,21 @@ function Sidebar() {
                                             className: "w-4 h-4"
                                         }, void 0, false, {
                                             fileName: "[project]/components/dashboard/Sidebar.jsx",
-                                            lineNumber: 115,
-                                            columnNumber: 11
+                                            lineNumber: 139,
+                                            columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             children: "Purchases"
                                         }, void 0, false, {
                                             fileName: "[project]/components/dashboard/Sidebar.jsx",
-                                            lineNumber: 116,
-                                            columnNumber: 11
+                                            lineNumber: 140,
+                                            columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/dashboard/Sidebar.jsx",
-                                    lineNumber: 114,
-                                    columnNumber: 9
+                                    lineNumber: 138,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                     href: "#",
@@ -381,21 +382,21 @@ function Sidebar() {
                                             className: "w-4 h-4"
                                         }, void 0, false, {
                                             fileName: "[project]/components/dashboard/Sidebar.jsx",
-                                            lineNumber: 119,
-                                            columnNumber: 11
+                                            lineNumber: 143,
+                                            columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             children: "Integrations"
                                         }, void 0, false, {
                                             fileName: "[project]/components/dashboard/Sidebar.jsx",
-                                            lineNumber: 120,
-                                            columnNumber: 11
+                                            lineNumber: 144,
+                                            columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/dashboard/Sidebar.jsx",
-                                    lineNumber: 118,
-                                    columnNumber: 9
+                                    lineNumber: 142,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                     href: "#",
@@ -405,21 +406,21 @@ function Sidebar() {
                                             className: "w-4 h-4"
                                         }, void 0, false, {
                                             fileName: "[project]/components/dashboard/Sidebar.jsx",
-                                            lineNumber: 123,
-                                            columnNumber: 11
+                                            lineNumber: 147,
+                                            columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             children: "Reports"
                                         }, void 0, false, {
                                             fileName: "[project]/components/dashboard/Sidebar.jsx",
-                                            lineNumber: 124,
-                                            columnNumber: 11
+                                            lineNumber: 148,
+                                            columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/dashboard/Sidebar.jsx",
-                                    lineNumber: 122,
-                                    columnNumber: 9
+                                    lineNumber: 146,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                     href: "#",
@@ -429,69 +430,69 @@ function Sidebar() {
                                             className: "w-4 h-4"
                                         }, void 0, false, {
                                             fileName: "[project]/components/dashboard/Sidebar.jsx",
-                                            lineNumber: 127,
-                                            columnNumber: 11
+                                            lineNumber: 151,
+                                            columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             children: "Documents"
                                         }, void 0, false, {
                                             fileName: "[project]/components/dashboard/Sidebar.jsx",
-                                            lineNumber: 128,
-                                            columnNumber: 11
+                                            lineNumber: 152,
+                                            columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/dashboard/Sidebar.jsx",
-                                    lineNumber: 126,
-                                    columnNumber: 9
+                                    lineNumber: 150,
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/dashboard/Sidebar.jsx",
-                            lineNumber: 72,
-                            columnNumber: 7
+                            lineNumber: 85,
+                            columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/dashboard/Sidebar.jsx",
-                    lineNumber: 65,
-                    columnNumber: 5
+                    lineNumber: 75,
+                    columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$dashboard$2f$Subscription$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                             fileName: "[project]/components/dashboard/Sidebar.jsx",
-                            lineNumber: 136,
-                            columnNumber: 7
+                            lineNumber: 160,
+                            columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "bg-slate-950 flex space-x-2 justify-center pt-3 pb-3 px-2",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$left$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronLeft$3e$__["ChevronLeft"], {}, void 0, false, {
                                 fileName: "[project]/components/dashboard/Sidebar.jsx",
-                                lineNumber: 139,
-                                columnNumber: 9
+                                lineNumber: 163,
+                                columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/dashboard/Sidebar.jsx",
-                            lineNumber: 138,
-                            columnNumber: 7
+                            lineNumber: 162,
+                            columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/dashboard/Sidebar.jsx",
-                    lineNumber: 134,
-                    columnNumber: 5
+                    lineNumber: 158,
+                    columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/dashboard/Sidebar.jsx",
-            lineNumber: 63,
-            columnNumber: 3
+            lineNumber: 73,
+            columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/dashboard/Sidebar.jsx",
-        lineNumber: 62,
-        columnNumber: 1
+        lineNumber: 72,
+        columnNumber: 5
     }, this);
 }
 const __TURBOPACK__default__export__ = Sidebar;

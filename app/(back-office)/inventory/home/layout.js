@@ -1,13 +1,13 @@
-import HomeNavbar from '@/components/dashboard/HomeNavbar'
-import React from 'react'
+import HomeNavbar from "@/components/dashboard/HomeNavbar";
+import React from "react";
 
-function layout({children}) {
+function layout({ children }) {
   return (
-    <div className=''>
-        <HomeNavbar />
-        {children}
+    <div className="">
+      <HomeNavbar />
+      {children}
     </div>
-  )
+  );
 }
 
-export default layout
+export default layout;

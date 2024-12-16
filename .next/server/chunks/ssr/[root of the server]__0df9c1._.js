@@ -48,20 +48,20 @@ function HomeNavbar() {
     // console.log(pathName)
     const navLinks = [
         {
-            title: 'Dashboard',
-            href: '/inventory/home/overview'
+            title: "Dashboard",
+            href: "/inventory/home/overview"
         },
         {
-            title: 'Getting Started',
-            href: '/inventory/home/getting-started'
+            title: "Getting Started",
+            href: "/inventory/home/getting-started"
         },
         {
-            title: 'Recent Updates',
-            href: '/inventory/home/updates'
+            title: "Recent Updates",
+            href: "/inventory/home/updates"
         },
         {
-            title: 'Announcements',
-            href: '/inventory/home/announcements'
+            title: "Announcements",
+            href: "/inventory/home/announcements"
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -76,13 +76,13 @@ function HomeNavbar() {
                             className: "text-slate-500"
                         }, void 0, false, {
                             fileName: "[project]/components/dashboard/HomeNavbar.jsx",
-                            lineNumber: 35,
-                            columnNumber: 13
+                            lineNumber: 34,
+                            columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/dashboard/HomeNavbar.jsx",
-                        lineNumber: 34,
-                        columnNumber: 13
+                        lineNumber: 33,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "flex flex-1 justify-between",
@@ -95,22 +95,22 @@ function HomeNavbar() {
                                         children: "Hello, Amrendra Vikram Singh"
                                     }, void 0, false, {
                                         fileName: "[project]/components/dashboard/HomeNavbar.jsx",
-                                        lineNumber: 39,
-                                        columnNumber: 21
+                                        lineNumber: 38,
+                                        columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "text-sm text-slate-700 pt-0",
                                         children: "Lucknow"
                                     }, void 0, false, {
                                         fileName: "[project]/components/dashboard/HomeNavbar.jsx",
-                                        lineNumber: 40,
-                                        columnNumber: 21
+                                        lineNumber: 39,
+                                        columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/dashboard/HomeNavbar.jsx",
-                                lineNumber: 38,
-                                columnNumber: 17
+                                lineNumber: 37,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "flex flex-col text-right",
@@ -120,34 +120,34 @@ function HomeNavbar() {
                                         children: "Mark Industry India Helpline: 7054107107"
                                     }, void 0, false, {
                                         fileName: "[project]/components/dashboard/HomeNavbar.jsx",
-                                        lineNumber: 43,
-                                        columnNumber: 21
+                                        lineNumber: 42,
+                                        columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "text-xs",
                                         children: "Mon - Fri • 9:00 AM - 7:00 PM"
                                     }, void 0, false, {
                                         fileName: "[project]/components/dashboard/HomeNavbar.jsx",
-                                        lineNumber: 44,
-                                        columnNumber: 21
+                                        lineNumber: 43,
+                                        columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/dashboard/HomeNavbar.jsx",
-                                lineNumber: 42,
-                                columnNumber: 17
+                                lineNumber: 41,
+                                columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/dashboard/HomeNavbar.jsx",
-                        lineNumber: 37,
-                        columnNumber: 13
+                        lineNumber: 36,
+                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/dashboard/HomeNavbar.jsx",
-                lineNumber: 33,
-                columnNumber: 9
+                lineNumber: 32,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
                 className: "sticky mt-[2.34vh] flex space-x-4",
@@ -158,19 +158,19 @@ function HomeNavbar() {
                         children: item.title
                     }, i, false, {
                         fileName: "[project]/components/dashboard/HomeNavbar.jsx",
-                        lineNumber: 52,
-                        columnNumber: 25
+                        lineNumber: 50,
+                        columnNumber: 13
                     }, this);
                 })
             }, void 0, false, {
                 fileName: "[project]/components/dashboard/HomeNavbar.jsx",
-                lineNumber: 48,
-                columnNumber: 9
+                lineNumber: 47,
+                columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/dashboard/HomeNavbar.jsx",
-        lineNumber: 32,
+        lineNumber: 31,
         columnNumber: 5
     }, this);
 }

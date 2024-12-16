@@ -19,14 +19,14 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 function DashboardBanner() {
     const [hidden, setHidden] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: `${hidden ? "hidden" : 'flex justify-between items-center py-12 px-16 bg-white gap-4 relative'}`,
+        className: `${hidden ? "hidden" : "flex justify-between items-center py-12 px-16 bg-white gap-4 relative"}`,
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$credit$2d$card$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CreditCard$3e$__["CreditCard"], {
                 className: "w-20 h-20 ml-5 text-slate-500"
             }, void 0, false, {
                 fileName: "[project]/components/dashboard/DashboardBanner.jsx",
-                lineNumber: 12,
-                columnNumber: 9
+                lineNumber: 17,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "flex flex-col w-1/2",
@@ -36,30 +36,30 @@ function DashboardBanner() {
                         children: "Start accepting online payments"
                     }, void 0, false, {
                         fileName: "[project]/components/dashboard/DashboardBanner.jsx",
-                        lineNumber: 15,
-                        columnNumber: 13
+                        lineNumber: 20,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "font-medium text-base text-slate-500",
                         children: "By integrating online payments, you’re not just keeping up with the times—you’re staying ahead of the competition. Whether you run a small local store or a growing e-commerce platform."
                     }, void 0, false, {
                         fileName: "[project]/components/dashboard/DashboardBanner.jsx",
-                        lineNumber: 18,
-                        columnNumber: 13
+                        lineNumber: 23,
+                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/dashboard/DashboardBanner.jsx",
-                lineNumber: 14,
-                columnNumber: 9
+                lineNumber: 19,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                 className: "py-2 px-4 mx-24 uppercase bg-blue-500 rounded-lg text-white text-base hover:text-slate-200 hover:bg-slate-700 active:bg-slate-300 transition duration-200",
                 children: "Enable"
             }, void 0, false, {
                 fileName: "[project]/components/dashboard/DashboardBanner.jsx",
-                lineNumber: 23,
-                columnNumber: 9
+                lineNumber: 30,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                 onClick: ()=>setHidden(true),
@@ -68,18 +68,18 @@ function DashboardBanner() {
                     className: "text-slate-600 hover:text-red-400 transition duration-100"
                 }, void 0, false, {
                     fileName: "[project]/components/dashboard/DashboardBanner.jsx",
-                    lineNumber: 26,
-                    columnNumber: 13
+                    lineNumber: 38,
+                    columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/dashboard/DashboardBanner.jsx",
-                lineNumber: 25,
-                columnNumber: 9
+                lineNumber: 34,
+                columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/dashboard/DashboardBanner.jsx",
-        lineNumber: 10,
+        lineNumber: 9,
         columnNumber: 5
     }, this);
 }
