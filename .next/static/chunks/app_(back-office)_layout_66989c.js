@@ -6,8 +6,8 @@
   "path": "static/chunks/app_(back-office)_layout_66989c.js",
   "chunks": [
     "static/chunks/components_dashboard_App_module_3fd772.css",
-    "static/chunks/node_modules_a6b373._.js",
-    "static/chunks/_5e3fe4._.js"
+    "static/chunks/node_modules_738e69._.js",
+    "static/chunks/_c23c7c._.js"
   ],
   "source": "dynamic"
 });
