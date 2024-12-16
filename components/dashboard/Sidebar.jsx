@@ -1,9 +1,36 @@
-import { BaggageClaim, BarChart4, Cable, ChevronLeft, Home, ScrollText, ShoppingBag, ShoppingCart } from 'lucide-react'
+"use client"
+import { BaggageClaim, BarChart4, Cable, ChevronLeft, Home, PlusCircle, ScrollText, ShoppingBag, ShoppingCart } from 'lucide-react'
 import Link from 'next/link'
-import React from 'react'
+import React, { useState } from 'react'
 import Subscription from './Subscription'
+import {
+  Collapsible,
+  CollapsibleContent,
+  CollapsibleTrigger,
+} from "@/components/ui/collapsible"
+
 
 function Sidebar() {
+
+  const [active, setActive] = useState({
+    inventory: false,
+    item: false,
+  });
+
+  const handleItemClick = () => {
+    setActive({
+      inventory: true, 
+      item: !active.item,
+    });
+  };
+
+  const handleInventoryClick = () => {
+    setActive({
+      inventory: !active.inventory,
+      item: false,
+    });
+  }
+
   return (
 <div>
   <div className="w-60 min-h-screen bg-slate-800 text-slate-50 fixed flex flex-col justify-between">
@@ -16,14 +43,30 @@ function Sidebar() {
       </Link>
       {/* Links */}
       <nav className="flex flex-col gap-3 px-3 py-6">
-        <Link href="#" className="flex items-center p-3 space-x-2 bg-blue-600 text-slate-50 rounded-md">
+        <Link href="#" className="flex items-center p-3 space-x-2 text-slate-50 rounded-md">
           <Home className="w-4 h-4" />
           <span>Home</span>
         </Link>
-        <button className="flex items-center p-3 space-x-2">
-          <BaggageClaim className="w-4 h-4" />
-          <span>Inventory</span>
-        </button>
+        <Collapsible>
+          <CollapsibleTrigger onClick={handleInventoryClick} className={`flex items-center w-full mb-2 p-3 space-x-2 rounded-md ${active.inventory ? 'bg-blue-800' : 'bg-slate-800'} ${active.item? 'bg-blue-500' :''} text-slate-50`}>
+              <BaggageClaim className="w-4 h-4" />
+              <span className=''>Inventory</span>
+          </CollapsibleTrigger>
+          <CollapsibleContent>
+          
+              <Link 
+              href='#' 
+              className={`flex items-center justify-between p-2.5 pr-6 rounded-lg hover:bg-blue-600 transition-all duration-300 ${active.item ? 'bg-blue-600' : ''}`}
+              onClick={handleItemClick}
+              >
+              <span className='pl-8 font-medium'>Item</span>
+              <PlusCircle className='w-4 h-4' />
+              </Link> 
+            
+           
+          </CollapsibleContent>
+        </Collapsible>
+
         <button className="flex items-center p-3 space-x-2">
           <ShoppingCart className="w-4 h-4" />
           <span>Sales</span>
