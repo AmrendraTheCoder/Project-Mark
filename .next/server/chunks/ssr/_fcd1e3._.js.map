@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/amrendravikramsingh/Desktop/financeTracker/mark1/app/page.js"],"sourcesContent":["import Image from \"next/image\";\nimport Link from \"next/link\";\n\nexport default function Home() {\n  return (\n    <div className=\"flex items-center justify-center min-h-screen flex-col\">\n      <h2 className=\"text-3xl mb-3\">\n        Home pages\n      </h2>     \n      <Link href='/inventory/home/overview'>View Dashboard</Link> \n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;AAAA;AACA;;;;AAEe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;;0BACb,8OAAC;gBAAG,WAAU;0BAAgB;;;;;;0BAG9B,8OAAC,4JAAA,CAAA,UAAI;gBAAC,MAAK;0BAA2B;;;;;;;;;;;;AAG5C"}},
+    {"offset": {"line": 43, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 54, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
+    {"offset": {"line": 54, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

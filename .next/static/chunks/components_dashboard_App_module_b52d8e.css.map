@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/components/dashboard/App.module.css"],"sourcesContent":[".input {\n    transition: width 0.3s ease;\n    width: 200px; /* Default width */\n  }\n  \n.input:hover {\n    width: 300px; /* Expanded width on hover/focus */\n  }"],"names":[],"mappings":"AAAA;;;;;AAKA"}},
+    {"offset": {"line": 9, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
