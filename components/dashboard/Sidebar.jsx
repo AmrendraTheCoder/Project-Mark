@@ -1,5 +1,5 @@
 "use client"
-import { BaggageClaim, BarChart4, Cable, ChevronLeft, Home, PlusCircle, ScrollText, ShoppingBag, ShoppingCart } from 'lucide-react'
+import { BaggageClaim, BarChart4, Cable, ChevronDown, ChevronLeft, ChevronRight, Home, PlusCircle, ScrollText, ShoppingBag, ShoppingCart } from 'lucide-react'
 import Link from 'next/link'
 import React, { useState } from 'react'
 import Subscription from './Subscription'
@@ -12,15 +12,40 @@ import {
 
 function Sidebar() {
 
+  const inventoryLinks = [
+    {
+      title: 'Items',
+      href: '#',
+    },
+    {
+      title: 'Items Group',
+      href: '#',
+    },
+    {
+      title: 'Inventory Adjustments',
+      href: '#',
+    },
+  ]
+
   const [active, setActive] = useState({
     inventory: false,
-    item: false,
+    Item: false,
+    ItemsGroup: false,
+    InventoryAdjustments: false,
   });
 
-  const handleItemClick = () => {
-    setActive({
-      inventory: true, 
-      item: !active.item,
+  const handleItemClick = (type) => {
+    setActive((prevActive) => {
+      const updatedState = {
+        inventory: true, 
+        item: false,
+        itemGroup: false,
+        InventoryAdjustments: false,
+      };
+
+      updatedState[type] = true;
+
+      return updatedState;
     });
   };
 
@@ -28,6 +53,8 @@ function Sidebar() {
     setActive({
       inventory: !active.inventory,
       item: false,
+      itemGroup: false,
+      InventoryAdjustments: false,
     });
   }
 
@@ -47,23 +74,36 @@ function Sidebar() {
           <Home className="w-4 h-4" />
           <span>Home</span>
         </Link>
+
         <Collapsible>
-          <CollapsibleTrigger onClick={handleInventoryClick} className={`flex items-center w-full mb-2 p-3 space-x-2 rounded-md ${active.inventory ? 'bg-blue-800' : 'bg-slate-800'} ${active.item? 'bg-blue-500' :''} text-slate-50`}>
-              <BaggageClaim className="w-4 h-4" />
-              <span className=''>Inventory</span>
+          <CollapsibleTrigger onClick={handleInventoryClick} className={`flex items-center w-full mb-2 p-3 space-x-2 rounded-md hover:bg-blue-600 ${active.inventory ? 'bg-blue-800' : 'bg-slate-800'} text-slate-50 justify-between`}>
+              <div className="flex items-center space-x-2">
+                <BaggageClaim className="w-4 h-4" />
+                <span>Inventory</span>
+              </div>  
+              {
+                active.inventory? <ChevronDown className='ml-auto'/> :<ChevronRight className='ml-auto'/> 
+              }
+              
           </CollapsibleTrigger>
           <CollapsibleContent>
           
-              <Link 
-              href='#' 
-              className={`flex items-center justify-between p-2.5 pr-6 rounded-lg hover:bg-blue-600 transition-all duration-300 ${active.item ? 'bg-blue-600' : ''}`}
-              onClick={handleItemClick}
-              >
-              <span className='pl-8 font-medium'>Item</span>
-              <PlusCircle className='w-4 h-4' />
-              </Link> 
-            
-           
+            {
+              inventoryLinks.map((item,i) => {
+                return (
+                  <Link 
+                    href={item.href} 
+                    key={i}
+                    className={`flex items-center justify-between p-2.5 pr-6 mb-2 rounded-lg hover:bg-blue-500 transition-all duration-300 ${active[item.title.replace(' ', '')] ? 'bg-blue-600' : ''}`}
+                    onClick={() => handleItemClick(item.title.replace(' ', ''))}
+                  >
+                    <span className='pl-8 font-medium text-sm'>{item.title}</span>
+                    <PlusCircle className='w-4 h-4' />
+                  </Link>
+                )
+              })
+            }
+
           </CollapsibleContent>
         </Collapsible>
 
