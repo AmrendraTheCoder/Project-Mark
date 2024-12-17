@@ -5,5 +5,10 @@
   "/(back-office)/inventory/home/overview/page": "app/(back-office)/inventory/home/overview/page.js",
   "/(back-office)/inventory/inventory/items/new/page": "app/(back-office)/inventory/inventory/items/new/page.js",
   "/(back-office)/inventory/inventory/itemgroups/page": "app/(back-office)/inventory/inventory/itemgroups/page.js",
-  "/(back-office)/inventory/inventory/adjustments/page": "app/(back-office)/inventory/inventory/adjustments/page.js"
+  "/(back-office)/inventory/inventory/adjustments/page": "app/(back-office)/inventory/inventory/adjustments/page.js",
+  "/(back-office)/inventory/purchases/page": "app/(back-office)/inventory/purchases/page.js",
+  "/(back-office)/inventory/integrations/page": "app/(back-office)/inventory/integrations/page.js",
+  "/(back-office)/inventory/reports/page": "app/(back-office)/inventory/reports/page.js",
+  "/(back-office)/inventory/documents/page": "app/(back-office)/inventory/documents/page.js",
+  "/_not-found/page": "app/_not-found/page.js"
 }

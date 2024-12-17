@@ -122,7 +122,7 @@ const Sidebar = () => {
 
           {/* Additional Static Links */}
           <Link
-            href="#"
+            href="/inventory/purchases"
             className={`flex items-center p-3 space-x-2 rounded-md hover:bg-blue-500 ${
               active.activeLink === "purchases" ? "bg-blue-600" : ""
             }`}
@@ -133,7 +133,7 @@ const Sidebar = () => {
           </Link>
 
           <Link
-            href="#"
+            href="/inventory/integrations"
             className={`flex items-center p-3 space-x-2 rounded-md hover:bg-blue-500 ${
               active.activeLink === "integrations" ? "bg-blue-600" : ""
             }`}
@@ -144,7 +144,7 @@ const Sidebar = () => {
           </Link>
 
           <Link
-            href="#"
+            href="/inventory/reports"
             className={`flex items-center p-3 space-x-2 rounded-md hover:bg-blue-500 ${
               active.activeLink === "reports" ? "bg-blue-600" : ""
             }`}
@@ -155,7 +155,7 @@ const Sidebar = () => {
           </Link>
 
           <Link
-            href="#"
+            href="/inventory/documents"
             className={`flex items-center p-3 space-x-2 rounded-md hover:bg-blue-500 ${
               active.activeLink === "documents" ? "bg-blue-600" : ""
             }`}
