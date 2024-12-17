@@ -1,7 +1,13 @@
 {
+<<<<<<< HEAD
   "polyfillFiles": [
     "static/chunks/polyfills-42372ed130431b0a.js"
   ],
+=======
+  "pages": {
+    "/_app": []
+  },
+>>>>>>> parent of 2bf898c (Optimised using maps.)
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
