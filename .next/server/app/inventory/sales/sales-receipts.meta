@@ -1,0 +1,7 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "4294967294",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(back-office)/layout,_N_T_/(back-office)/inventory/layout,_N_T_/(back-office)/inventory/sales/layout,_N_T_/(back-office)/inventory/sales/sales-receipts/layout,_N_T_/(back-office)/inventory/sales/sales-receipts/page,_N_T_/inventory/sales/sales-receipts"
+  }
+}

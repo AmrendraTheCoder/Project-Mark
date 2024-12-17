@@ -1,9 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/amrendravikramsingh/Desktop/financeTracker/mark1/app/%28back-office%29/inventory/home/getting-started/page.jsx"],"sourcesContent":["import React from 'react'\n\nfunction GettingStarted() {\n  return (\n    <div>\n        <h2>\n            Get Started\n        </h2>\n    </div>\n  )\n}\n\nexport default GettingStarted"],"names":[],"mappings":";;;;AAAA;;;AAEA,SAAS;IACP,qBACE,8OAAC;kBACG,cAAA,8OAAC;sBAAG;;;;;;;;;;;AAKZ;uCAEe"}},
-    {"offset": {"line": 30, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
-    {"offset": {"line": 41, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
-    {"offset": {"line": 41, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}
