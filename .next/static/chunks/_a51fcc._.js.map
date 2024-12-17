@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/amrendravikramsingh/Desktop/financeTracker/mark1/components/ui/collapsible.jsx"],"sourcesContent":["\"use client\"\n\nimport * as CollapsiblePrimitive from \"@radix-ui/react-collapsible\"\n\nconst Collapsible = CollapsiblePrimitive.Root\n\nconst CollapsibleTrigger = CollapsiblePrimitive.CollapsibleTrigger\n\nconst CollapsibleContent = CollapsiblePrimitive.CollapsibleContent\n\nexport { Collapsible, CollapsibleTrigger, CollapsibleContent }\n"],"names":[],"mappings":";;;;;AAEA;AAFA;;AAIA,MAAM,cAAc,2KAAqB,IAAI;AAE7C,MAAM,qBAAqB,2KAAqB,kBAAkB;AAElE,MAAM,qBAAqB,2KAAqB,kBAAkB"}},
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 {"pages":{},"app":{"/Users/amrendravikramsingh/Desktop/financeTracker/mark1/app/layout":["static/media/569ce4b8f30dc480-s.p.woff2","static/media/93f479601ee12b01-s.p.woff2"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}
 =======
 {
@@ -7,6 +8,10 @@
       "static/media/gyByhwUxId8gMEwcGFWNOITd-s.p.da1ebef7.woff2",
       "static/media/or3nQ6H_1_WfwkMZI_qYFrcdmhHkjko-s.p.be19f591.woff2"
     ],
+=======
+{
+  "app": {
+>>>>>>> parent of 28e4ec6 (improvement!)
     "[project]/app/page": [
       "static/media/gyByhwUxId8gMEwcGFWNOITd-s.p.da1ebef7.woff2",
       "static/media/or3nQ6H_1_WfwkMZI_qYFrcdmhHkjko-s.p.be19f591.woff2"
@@ -14,10 +19,25 @@
     "[project]/app/(back-office)/inventory/home/overview/page": [
       "static/media/gyByhwUxId8gMEwcGFWNOITd-s.p.da1ebef7.woff2",
       "static/media/or3nQ6H_1_WfwkMZI_qYFrcdmhHkjko-s.p.be19f591.woff2"
+<<<<<<< HEAD
+=======
+    ],
+    "[project]/app/(back-office)/inventory/inventory/items/page": [
+      "static/media/gyByhwUxId8gMEwcGFWNOITd-s.p.da1ebef7.woff2",
+      "static/media/or3nQ6H_1_WfwkMZI_qYFrcdmhHkjko-s.p.be19f591.woff2"
+    ],
+    "[project]/app/(back-office)/inventory/inventory/items/new/page": [
+      "static/media/gyByhwUxId8gMEwcGFWNOITd-s.p.da1ebef7.woff2",
+      "static/media/or3nQ6H_1_WfwkMZI_qYFrcdmhHkjko-s.p.be19f591.woff2"
+>>>>>>> parent of 28e4ec6 (improvement!)
     ]
   },
   "appUsingSizeAdjust": true,
   "pages": {},
   "pagesUsingSizeAdjust": false
+<<<<<<< HEAD
 }
 >>>>>>> parent of 2bf898c (Optimised using maps.)
+=======
+}
+>>>>>>> parent of 28e4ec6 (improvement!)

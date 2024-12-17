@@ -1,34 +1,33 @@
-"use client";
-
 import FixedHeader from "@/components/dashboard/FixedHeader";
-import React, { useEffect, useState } from "react";
+import React from "react";
 
-function Inventory() {
-  const [data, setData] = useState(null);
-
-  useEffect(() => {
-    async function fetchData() {
-      try {
-        const response = await fetch("https://api.example.com/data");
-        const result = await response.json();
-        setData(result);
-      } catch (error) {
-        console.error("Error fetching data:", error);
-      }
-    }
-
-    fetchData();
-  }, []);
-
+function Inventory({ data }) {
   return (
     <div>
       <FixedHeader />
       <h2>Inventory Creation Options</h2>
-      <div>
-        <p>Data Fetched: {data ? JSON.stringify(data) : "Loading..."}</p>
-      </div>
+      <p>Data fetched: {data ? JSON.stringify(data) : "No data available"}</p>
     </div>
   );
+}
+
+// Move getStaticProps outside the component
+export async function getStaticProps() {
+  try {
+    // Simulate data fetching logic
+    const response = await fetch("https://api.example.com/data"); // Replace with your API endpoint
+    const data = await response.json();
+
+    return {
+      props: { data }, // Pass the fetched data to the component
+    };
+  } catch (error) {
+    console.error("Error fetching data:", error);
+
+    return {
+      notFound: true, // Show a 404 page if data fetch fails
+    };
+  }
 }
 
 export default Inventory;

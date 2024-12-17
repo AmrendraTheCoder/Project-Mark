@@ -1,21 +1,7 @@
 {
   "pages": {
-    "/_not-found/page": [
-      "static/chunks/webpack-541185985b8a92a7.js",
-      "static/chunks/4bd1b696-eafe63c2999b703a.js",
-      "static/chunks/898-539cd83afa7f488a.js",
-      "static/chunks/main-app-6fc936d316650602.js",
-      "static/chunks/app/_not-found/page-084ebea618ce2f7e.js"
-    ],
-    "/layout": [
-      "static/chunks/webpack-541185985b8a92a7.js",
-      "static/chunks/4bd1b696-eafe63c2999b703a.js",
-      "static/chunks/898-539cd83afa7f488a.js",
-      "static/chunks/main-app-6fc936d316650602.js",
-      "static/css/84e5f2042301cd01.css",
-      "static/chunks/app/layout-014c1b18928c6a13.js"
-    ],
     "/page": [
+<<<<<<< HEAD
       "static/chunks/webpack-541185985b8a92a7.js",
       "static/chunks/4bd1b696-eafe63c2999b703a.js",
       "static/chunks/898-539cd83afa7f488a.js",
@@ -198,29 +184,25 @@
       "static/chunks/898-539cd83afa7f488a.js",
       "static/chunks/main-app-6fc936d316650602.js",
       "static/chunks/app/(back-office)/inventory/home/getting-started/page-193d72864d3c7faf.js"
-    ],
-    "/(back-office)/inventory/home/overview/page": [
-      "static/chunks/webpack-541185985b8a92a7.js",
-      "static/chunks/4bd1b696-eafe63c2999b703a.js",
-      "static/chunks/898-539cd83afa7f488a.js",
-      "static/chunks/main-app-6fc936d316650602.js",
-      "static/chunks/173-8dc0b12394a04179.js",
-      "static/chunks/app/(back-office)/inventory/home/overview/page-32d5c3da56cf27fa.js"
-    ],
-    "/(back-office)/inventory/home/page": [
-      "static/chunks/webpack-541185985b8a92a7.js",
-      "static/chunks/4bd1b696-eafe63c2999b703a.js",
-      "static/chunks/898-539cd83afa7f488a.js",
-      "static/chunks/main-app-6fc936d316650602.js",
-      "static/chunks/app/(back-office)/inventory/home/page-33b89afb2115c660.js"
-    ],
-    "/(back-office)/inventory/home/updates/page": [
-      "static/chunks/webpack-541185985b8a92a7.js",
-      "static/chunks/4bd1b696-eafe63c2999b703a.js",
-      "static/chunks/898-539cd83afa7f488a.js",
-      "static/chunks/main-app-6fc936d316650602.js",
-      "static/chunks/app/(back-office)/inventory/home/updates/page-9a9609fa99a4d642.js"
 =======
+      "static/chunks/_22d2ba._.js",
+      "static/chunks/app_favicon_ico_mjs_53e3fe._.js",
+      "static/chunks/[root of the server]__5816f8._.css",
+      "static/chunks/app_layout_d9f7ea.js",
+      "static/chunks/app_layout_61af54.js",
+      "static/chunks/node_modules_next_dist_a082a6._.js",
+      "static/chunks/app_page_a68060.js",
+      "static/chunks/app_page_66989c.js",
+      "static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc._.js",
+      "static/chunks/node_modules_next_dist_compiled_107ce8._.js",
+      "static/chunks/node_modules_next_dist_client_523921._.js",
+      "static/chunks/node_modules_next_dist_4bb10e._.js",
+      "static/chunks/node_modules_@swc_helpers_cjs_00636a._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_d0a96d._.js",
+      "static/chunks/_e69f0d._.js",
+      "static/chunks/_d95469._.js"
+>>>>>>> parent of 28e4ec6 (improvement!)
+    ],
     "/(back-office)/inventory/home/overview/page": [
       "static/chunks/_22d2ba._.js",
       "static/chunks/app_favicon_ico_mjs_53e3fe._.js",
@@ -243,10 +225,68 @@
       "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_d0a96d._.js",
       "static/chunks/_e69f0d._.js",
       "static/chunks/_d95469._.js"
+    ],
+    "/(back-office)/inventory/inventory/items/page": [
+      "static/chunks/_22d2ba._.js",
+      "static/chunks/app_favicon_ico_mjs_53e3fe._.js",
+      "static/chunks/[root of the server]__5816f8._.css",
+      "static/chunks/app_layout_d9f7ea.js",
+      "static/chunks/app_layout_61af54.js",
+      "static/chunks/components_dashboard_App_module_3fd772.css",
+      "static/chunks/node_modules_738e69._.js",
+      "static/chunks/_c23c7c._.js",
+      "static/chunks/app_(back-office)_layout_66989c.js",
+      "static/chunks/app_(back-office)_inventory_inventory_items_page_jsx_745847._.js",
+      "static/chunks/app_(back-office)_inventory_inventory_items_page_jsx_b8c5b6._.js",
+      "static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc._.js",
+      "static/chunks/node_modules_next_dist_compiled_107ce8._.js",
+      "static/chunks/node_modules_next_dist_client_523921._.js",
+      "static/chunks/node_modules_next_dist_4bb10e._.js",
+      "static/chunks/node_modules_@swc_helpers_cjs_00636a._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_d0a96d._.js",
+      "static/chunks/_e69f0d._.js",
+      "static/chunks/_d95469._.js"
+    ],
+<<<<<<< HEAD
+    "/(back-office)/inventory/home/updates/page": [
+      "static/chunks/webpack-541185985b8a92a7.js",
+      "static/chunks/4bd1b696-eafe63c2999b703a.js",
+      "static/chunks/898-539cd83afa7f488a.js",
+      "static/chunks/main-app-6fc936d316650602.js",
+      "static/chunks/app/(back-office)/inventory/home/updates/page-9a9609fa99a4d642.js"
+=======
+    "/(back-office)/inventory/home/overview/page": [
+=======
+    "/(back-office)/inventory/inventory/items/new/page": [
+>>>>>>> parent of 28e4ec6 (improvement!)
+      "static/chunks/_22d2ba._.js",
+      "static/chunks/app_favicon_ico_mjs_53e3fe._.js",
+      "static/chunks/[root of the server]__5816f8._.css",
+      "static/chunks/app_layout_d9f7ea.js",
+      "static/chunks/app_layout_61af54.js",
+      "static/chunks/components_dashboard_App_module_3fd772.css",
+      "static/chunks/node_modules_738e69._.js",
+      "static/chunks/_c23c7c._.js",
+      "static/chunks/app_(back-office)_layout_66989c.js",
+<<<<<<< HEAD
+      "static/chunks/_a913d2._.js",
+      "static/chunks/app_(back-office)_inventory_home_layout_b8c5b6.js",
+      "static/chunks/_faafb5._.js",
+      "static/chunks/app_(back-office)_inventory_home_overview_page_jsx_e29518._.js",
+=======
+>>>>>>> parent of 28e4ec6 (improvement!)
+      "static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc._.js",
+      "static/chunks/node_modules_next_dist_compiled_107ce8._.js",
+      "static/chunks/node_modules_next_dist_client_523921._.js",
+      "static/chunks/node_modules_next_dist_4bb10e._.js",
+      "static/chunks/node_modules_@swc_helpers_cjs_00636a._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_d0a96d._.js",
+      "static/chunks/_e69f0d._.js",
+      "static/chunks/_d95469._.js"
 <<<<<<< HEAD
 >>>>>>> parent of 2bf898c (Optimised using maps.)
 =======
->>>>>>> parent of 2bf898c (Optimised using maps.)
+>>>>>>> parent of 28e4ec6 (improvement!)
     ]
   }
 }
