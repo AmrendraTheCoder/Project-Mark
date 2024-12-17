@@ -1,6 +1,7 @@
 {
-  "/(back-office)/inventory/purchases/page": "app/(back-office)/inventory/purchases/page.js",
+  "/page": "app/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/(back-office)/inventory/home/overview/page": "app/(back-office)/inventory/home/overview/page.js",
   "/(back-office)/inventory/inventory/items/page": "app/(back-office)/inventory/inventory/items/page.js",
   "/(back-office)/inventory/inventory/items/new/page": "app/(back-office)/inventory/inventory/items/new/page.js"
 }

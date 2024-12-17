@@ -15342,7 +15342,7 @@ var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_
                                 }
                             }
                             if (o) {
-                                return '<span class="' + l.join(" ") + '"' + u(c) + ">" + t.content + "</span>";
+                                return '<span className="' + l.join(" ") + '"' + u(c) + ">" + t.content + "</span>";
                             } else {
                                 return '<span style="' + a.join(";") + '"' + u(c) + ">" + t.content + "</span>";
                             }
