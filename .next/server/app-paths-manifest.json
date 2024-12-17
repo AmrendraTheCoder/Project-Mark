@@ -3,6 +3,7 @@
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/page": "app/page.js",
 <<<<<<< HEAD
+<<<<<<< HEAD
   "/(back-office)/inventory/documents/page": "app/(back-office)/inventory/documents/page.js",
   "/(back-office)/inventory/integrations/page": "app/(back-office)/inventory/integrations/page.js",
   "/(back-office)/inventory/inventory/items/new/page": "app/(back-office)/inventory/inventory/items/new/page.js",
@@ -28,6 +29,9 @@
   "/(back-office)/inventory/home/overview/page": "app/(back-office)/inventory/home/overview/page.js",
   "/(back-office)/inventory/home/page": "app/(back-office)/inventory/home/page.js",
   "/(back-office)/inventory/home/updates/page": "app/(back-office)/inventory/home/updates/page.js"
+=======
+  "/(back-office)/inventory/home/overview/page": "app/(back-office)/inventory/home/overview/page.js"
+>>>>>>> parent of 2bf898c (Optimised using maps.)
 =======
   "/(back-office)/inventory/home/overview/page": "app/(back-office)/inventory/home/overview/page.js"
 >>>>>>> parent of 2bf898c (Optimised using maps.)

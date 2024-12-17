@@ -5,6 +5,7 @@ import React from "react";
 
 function Items() {
 <<<<<<< HEAD
+<<<<<<< HEAD
   // const { title, description, link, linkTitle, enabled } = optionData;
   const itemCardOptions = [
     {
@@ -115,6 +116,8 @@ function Items() {
     },
   ];
 
+=======
+>>>>>>> parent of 2bf898c (Optimised using maps.)
 =======
 >>>>>>> parent of 2bf898c (Optimised using maps.)
   return (
