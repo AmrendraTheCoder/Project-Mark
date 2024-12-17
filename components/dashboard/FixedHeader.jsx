@@ -8,19 +8,22 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 
-function FixedHeader() {
+function FixedHeader({ newLink }) {
   return (
     <div className="flex py-6 pl-4 justify-between items-center bg-white border-b shadow-sm">
       <div className="flex items-center justify-center gap-1">
         <button className="pl-2 text-2xl font-semibold">All Items</button>
-        <ChevronDown strokeWidth='3px' className="text-blue-500 font-semibold w-5 h-5" />
+        <ChevronDown
+          strokeWidth="3px"
+          className="text-blue-500 font-semibold w-5 h-5"
+        />
       </div>
       <div className="flex gap-6">
         {/* New */}
         <div className=" border-gray-300">
           <Link
-            href="#"
-            className="flex justify-center items-center px-3 py-2 gap-1 bg-blue-500 rounded-md"
+            href={newLink}
+            className="flex justify-center items-center px-3 py-2 gap-1 font-semibold bg-blue-500 rounded-md "
           >
             <Plus className="text-slate-50 w-4 h-4" />
             <span className="text-slate-50">New</span>
