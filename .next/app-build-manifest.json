@@ -225,6 +225,7 @@
       "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_d0a96d._.js",
       "static/chunks/_e69f0d._.js",
       "static/chunks/_d95469._.js"
+<<<<<<< HEAD
     ],
     "/(back-office)/inventory/inventory/items/page": [
       "static/chunks/_22d2ba._.js",
@@ -287,6 +288,9 @@
 >>>>>>> parent of 2bf898c (Optimised using maps.)
 =======
 >>>>>>> parent of 28e4ec6 (improvement!)
+=======
+>>>>>>> parent of 2bf898c (Optimised using maps.)
+>>>>>>> parent of ae6f179 (idk)
     ]
   }
 }

@@ -1,7 +1,6 @@
 {
   "/page": "app/page.js",
 <<<<<<< HEAD
-<<<<<<< HEAD
   "/(back-office)/inventory/documents/page": "app/(back-office)/inventory/documents/page.js",
   "/(back-office)/inventory/integrations/page": "app/(back-office)/inventory/integrations/page.js",
   "/(back-office)/inventory/inventory/items/new/page": "app/(back-office)/inventory/inventory/items/new/page.js",
@@ -30,10 +29,13 @@
 =======
   "/(back-office)/inventory/home/overview/page": "app/(back-office)/inventory/home/overview/page.js"
 >>>>>>> parent of 2bf898c (Optimised using maps.)
+<<<<<<< HEAD
 =======
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/(back-office)/inventory/home/overview/page": "app/(back-office)/inventory/home/overview/page.js",
   "/(back-office)/inventory/inventory/items/page": "app/(back-office)/inventory/inventory/items/page.js",
   "/(back-office)/inventory/inventory/items/new/page": "app/(back-office)/inventory/inventory/items/new/page.js"
 >>>>>>> parent of 28e4ec6 (improvement!)
+=======
+>>>>>>> parent of ae6f179 (idk)
 }
